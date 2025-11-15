@@ -1,0 +1,134 @@
+{
+    "telemetry.telemetryLevel": "crash",
+    "breadcrumbs.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[sql]": {
+        "editor.formatOnSave": false
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+    "editor.folding": false,
+    "editor.fontLigatures": false,
+    "editor.fontWeight": "normal",
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": false
+    },
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.glyphMargin": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.largeFileOptimizations": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "editor.scrollbar.horizontalScrollbarSize": 4,
+    "editor.scrollbar.verticalScrollbarSize": 4,
+    "editor.selectionHighlight": true,
+    "editor.smoothScrolling": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.wordWrap": "on",
+    "emmet.includeLanguages": {
+        "ejs": "html"
+    },
+    "files.associations": {
+        "*.ejs": "html"
+    },
+    "files.exclude": {
+        "**/.git": false
+    },
+    "git.blame.editorDecoration.enabled": true,
+    "git.suggestSmartCommit": false,
+    "html.format.templating": true,
+    "html.validate.scripts": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "json.schemas": [],
+    "search.exclude": {
+        "**/swagger": true,
+        "**/node_modules": true,
+        "package-lock.json": true,
+        "pnpm-lock.yaml": true
+    },
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "j"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "s",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditorRight"
+            ]
+        }
+    ],
+    "window.commandCenter": false,
+    "window.nativeTabs": false,
+    "window.restoreWindows": "none",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#36393a",
+        "editorBracketMatch.border": "#b0f5fd",
+        "editorHoverWidget.border": "#b2e8ff",
+        "editorIndentGuide.activeBackground1": "#cecece",
+        "editorLineNumber.foreground": "#e6e2e2"
+    },
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeRepositoryName}${separator}${activeRepositoryBranchName}",
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "never",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.highlightModifiedTabs": false,
+    "workbench.editor.showIcons": true,
+    "workbench.settings.applyToAllProfiles": [],
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.svg": "default"
+    },
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": true,
+        "windsurf": true,
+        "cursor-global": true,
+        "cursor-workspace": true
+    },
+    "chat.agent.enabled": true,
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.userWords": [
+        "godoc",
+        "gorm"
+    ],
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+    },
+    "workbench.colorTheme": "Default Dark+",
+}
