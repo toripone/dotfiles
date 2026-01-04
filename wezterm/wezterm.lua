@@ -11,7 +11,7 @@ config.macos_window_background_blur = 15
 config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
-config.initial_cols = 140
+config.initial_cols = 120
 config.initial_rows = 38
 config.color_scheme = 'Solarized (dark) (terminal.sexy)'
 
@@ -46,7 +46,8 @@ wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_wid
 
   local edge_foreground = background
 
-  local title = " " .. wezterm.truncate_right(tab.active_pane.title, max_width - 1) .. " "
+  local title_max_width = math.max(0, max_width - 4)
+  local title = " " .. wezterm.truncate_right(tab.active_pane.title, title_max_width) .. " "
 
   return {
     { Background = { Color = edge_background } },
