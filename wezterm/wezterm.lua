@@ -16,7 +16,6 @@ config.initial_rows = 38
 config.color_scheme = 'Solarized (dark) (terminal.sexy)'
 
 config.colors = {
-  background = "#191919",
   tab_bar = {
     background = "none",
     inactive_tab_edge = "none",
